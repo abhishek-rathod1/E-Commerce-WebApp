@@ -51,9 +51,11 @@ document.getElementById("login").addEventListener("click", () => {
 
       }else{
         //no user
+        error.textContent = "No User Found!! Please signup"
       } 
     } else {
       // please signup
+      error.textContent = "No User Found!! Please signup"
     }
   }
 });
