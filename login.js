@@ -1,13 +1,13 @@
 
-let currUser = localStorage.getItem("currentUser");
+// let currUser = localStorage.getItem("currentUser");
 
-if (currUser) {
-  //user found, show profile page
-  window.location.href = "/shop";
-} else {
-  //take user back to login
-  window.location.href = "/login.html";
-}
+// if (currUser) {
+//   //user found, show profile page
+//   // window.location.href = "/shop";
+// } else {
+//   //take user back to login
+//   window.location.href = "/login.html";
+// }
 
 
 let email = document.getElementById("email");
